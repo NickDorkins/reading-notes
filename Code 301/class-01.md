@@ -85,7 +85,7 @@ Source: https://www.freecodecamp.org/news/css-floats-explained-by-riding-an-esca
 ## SMACSS Official Documentation
 Source: http://smacss.com/
 
-SMACSS is more style guide than rigid framework. There is no library you have to download or install. There is no git repository for you to clone. SMACSS is a way to examine your design process and as a way to fit those rigid frameworks into a flexible thought process. It is an attempt to document a consistent approach to site development when using CSS. And really, who isn’t building a site with CSS these days?!
+SMACSS is more style guide than rigid framework. There is no library you have to download or install. There is no git repository for you to clone. SMACSS is a way to examine your design process and as a way to fit those rigid frameworks into a flexible thought process. It is an attempt to document a consistent approach to site development when using CSS.
 
 
 
