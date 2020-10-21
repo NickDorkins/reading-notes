@@ -87,5 +87,15 @@ Source: http://smacss.com/
 
 SMACSS is more style guide than rigid framework. There is no library you have to download or install. There is no git repository for you to clone. SMACSS is a way to examine your design process and as a way to fit those rigid frameworks into a flexible thought process. It is an attempt to document a consistent approach to site development when using CSS.
 
+## SMACSS Rules:
 
+- **Base** - rules are the defaults. They are almost exclusively single element selectors but it could include attribute selectors, pseudo-class selectors, child selectors or sibling selectors. Essentially, a base style says that wherever this element is on the page, it should look like this. 
+
+- **Layout** - rules divide the page into sections. Layouts hold one or more modules together. 
+
+- **Modules** - are the reusable, modular parts of our design. They are the callouts, the sidebar sections, the product lists and so on. 
+
+- **State** - rules are ways to describe how our modules or layouts will look when in a particular state. Is it hidden or expanded? Is it active or inactive? They are about describing how a module or layout looks on screens that are smaller or bigger. They are also about de- scribing how a module might look in different views like the home page or the inside page. 
+
+- **Theme** - rules are similar to state rules in that they describe how modules or layouts might look. Most sites don’t require a layer of theming but it is good to be aware of it. 
 
