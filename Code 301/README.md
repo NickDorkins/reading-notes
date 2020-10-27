@@ -19,3 +19,5 @@ In this repo you will find notes that pertain to the following topics:
 - Read: 14a - [DB Normalization](./class-14a.md)
 - Read: 14b - [Project Ideas & APIs](./class-14b.md)
 - Read: 15 - [Diversity and Inclusion](./class-15.md)
+
+> ### Starting at Lab-07 the notes have the source links so you can read the original content, this will be standardized in the future.
