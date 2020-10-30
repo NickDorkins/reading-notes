@@ -129,3 +129,9 @@ app.get('/', function(request, response){
   <% } %>
 </ul>
 ```
+
+## Additional resources:
+- [Google Books APIs - Working Volumes](https://developers.google.com/books/docs/v1/using#WorkingVolumes)
+- [Embedded JavaScript templating](https://ejs.co/)
+- [How To Use EJS to Template Your Node Application](https://www.digitalocean.com/community/tutorials/how-to-use-ejs-to-template-your-node-application)
+- [Using EJS to template a Node application - scotch-io](https://github.com/scotch-io/node-ejs)
