@@ -1,4 +1,5 @@
 # Reading Notes
+Source: [Nick Dorkins - Software Development Reading Notes](https://nickdorkins.github.io/reading-notes/)
 
 ## Code 102 - Intro to Software Development
 
@@ -47,9 +48,9 @@
 ## Code 401 - Advanced Software Development
 
 - [Pain and Suffering / Beginners Guide to Big O](Code-401/class-01.md) 
-- [class-02.md](Code-401/class-02.md) 
-- [class-03.md](Code-401/class-03.md) 
-- [class-04.md](Code-401/class-04.md) 
+- [Testing and Modules](Code-401/class-02.md) 
+- [FileIO & Exceptions](Code-401/class-03.md) 
+- [Objects/Recursion/Pytest:Fixtures and Coverage](Code-401/class-04.md) 
 - [class-05.md](Code-401/class-05.md) 
 - [class-06.md](Code-401/class-06.md) 
 - [class-07.md](Code-401/class-07.md) 

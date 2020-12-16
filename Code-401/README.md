@@ -6,10 +6,10 @@
 > Currently shows 44 different reading files, this will change as class progresses 12/05/2020 - 5/15/2021. Files will be removed where we do not have reading assignments (i.e. mid-terms).
 
   
-- [class-01.md](/class-01.md) 
-- [class-02.md](/class-02.md) 
-- [class-03.md](/class-03.md) 
-- [class-04.md](/class-04.md) 
+- [Pain vs. Suffering / Big-O Notation](/class-01.md) 
+- [Testing and Modules](/class-02.md) 
+- [FileIO & Exceptions](/class-03.md) 
+- [Objects/Recursion/Pytest:Fixtures and Coverage](/class-04.md) 
 - [class-05.md](/class-05.md) 
 - [class-06.md](/class-06.md) 
 - [class-07.md](/class-07.md) 
