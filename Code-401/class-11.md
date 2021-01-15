@@ -1,6 +1,6 @@
 # Career Coaching Workshop #2 Prep - Your Why
 
-# PINPOINT YOUR VALUES
+## PINPOINT YOUR VALUES
 
 
 
@@ -56,3 +56,38 @@ bothers me?
 that I have?
 
 > These relationships allow me to grow but also challenge me to grow and be a better person than I was yesterday. You can always be a better person!
+
+
+## CONSIDER YOUR OPTIONS
+
+List your opportunities
+
+1. Remove the negative
+2. Celebrate the positive
+3. Surround myself with more possitive people 
+4. Be willing to walk away from those that are not bringing a positive into my life
+5. Create more self learning Games
+
+
+
+List your core values based
+on your answers to #1
+
+1. 
+2. 
+3. 
+4. 
+5. 
+
+
+## MAKE ROOM FOR WHAT YOU LOVE
+
+Maximize 
+1. Healthy professional relationships
+2. Friendships
+3. Self Confidence
+
+Minimize
+1. Self Doubt
+2. Toxic Environments
+3. Shortcuts
