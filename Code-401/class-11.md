@@ -73,11 +73,11 @@ List your opportunities
 List your core values based
 on your answers to #1
 
-1. 
-2. 
-3. 
-4. 
-5. 
+1. Be good to people regardless of how they act(don't let that get taken too far though, still have the fortitude to say "enough")
+2. Offer a helping hand or a hand up if you can, especially if it's time. Time is free.
+3. Find ways to bring others on your growth adventures, don't dismiss them  or stomp on their back to get to the next goal.
+4. If you can comfortably make someones stress levels lower, DO IT!(Streamline a system used in a workplace, give someone your extra sandwich. ANYTHING)
+5. Listen, don't have a need to speak, you can't connect with a person if you are only thinking about what your reply is, instead of LISTENING TO THEM
 
 
 ## MAKE ROOM FOR WHAT YOU LOVE
