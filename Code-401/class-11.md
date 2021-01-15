@@ -41,7 +41,18 @@ bothers me?
 > Because Ice Cream is amazing
 
 9. Why do I read and watch what I do?
+
+> It makes me feel good
+
 10. Why do I admire whom I admire?
+
+> Positive impacts on society 
+
 11. When am I happy?
+
+> If you spend your life miserable you are never going to grow, find the positive and run with it, forget the negative.
+
 12. Why do I have the relationships
 that I have?
+
+> These relationships allow me to grow but also challenge me to grow and be a better person than I was yesterday. You can always be a better person!
