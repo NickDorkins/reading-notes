@@ -66,3 +66,23 @@ qualities =
 sum(qualities) / len(qualities)
 ```
 > Returned Value: `5.6360225140712945`
+
+## Numpy 2-Dimensional Arrays
+
+With NumPy, we work with multidimensional arrays. We’ll dive into all of the possible types of multidimensional arrays later on, but for now, we’ll focus on 2-dimensional arrays. A 2-dimensional array is also known as a matrix, and is something you should be familiar with. In fact, it’s just a different way of thinking about a list of lists. A matrix has rows and columns. By specifying a row number and a column number, we’re able to extract an element from a matrix.
+
+
+## Creating A NumPy Array
+
+We can create a NumPy array using the [numpy.array](http://docs.scipy.org/doc/numpy/reference/generated/numpy.array.html) function. If we pass in a list of lists, it will automatically create a NumPy array with the same number of rows and columns. Because we want all of the elements in the array to be float elements for easy computation, we’ll leave off the header row, which contains strings. One of the limitations of NumPy is that all the elements in an array have to be of the same type, so if we include the header row, all the elements in the array will be read in as strings.
+
+## Alternative NumPy Array Creation Methods
+
+There are a variety of methods that you can use to create NumPy arrays. To start with, you can create an array where every element is zero. The below code will create an array with 3 rows and 4 columns, where every element is 0, using [numpy.zeros](http://docs.scipy.org/doc/numpy/reference/generated/numpy.zeros.html):
+
+import numpy as np
+empty_array = np.zeros((3,4)) empty_array
+It’s useful to create an array with all zero elements in cases when you need an array of fixed size, but don’t have any values for it yet.
+
+You can also create an array where each element is a random number using [numpy.random.rand](https://docs.scipy.org/doc/numpy-1.15.1/reference/generated/numpy.random.randint.html). 
+
