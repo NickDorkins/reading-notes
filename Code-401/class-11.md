@@ -1,93 +1,25 @@
-# Career Coaching Workshop #2 Prep - Your Why
+# Class 11: Reading Data Analysis
 
-## PINPOINT YOUR VALUES
+## [What is Jupyter Lab?](https://jupyterlab.readthedocs.io/en/stable/getting_started/overview.html)
 
+**JupyterLab is a next-generation web-based user interface for Project Jupyter.**
 
+JupyterLab enables you to work with documents and activities such as Jupyter notebooks, text editors, terminals, and custom components in a flexible, integrated, and extensible manner.
 
+You can arrange multiple documents and activities side by side in the work area using tabs and splitters. Documents and activities integrate with each other, enabling new workflows for interactive computing, for example:
 
-1. What motivates me to get up
-in the morning?
+- Code Consoles provide transient scratchpads for running code interactively, with full support for rich output. A code console can be linked to a notebook kernel as a computation log from the notebook, for example.
 
-> Having the ability to have a possitive impact on society and the environment around me.
+- Kernel-backed documents enable code in any text file (Markdown, Python, R, LaTeX, etc.) to be run interactively in any Jupyter kernel.
 
-2. What keeps me up at night?
+- Notebook cell outputs can be mirrored into their own tab, side by side with the notebook, enabling simple dashboards with interactive controls backed by a kernel.
 
-> Failing at tasks that I put my mind to and take a super deep dive into 
+- Multiple views of documents with different editors or viewers enable live editing of documents reflected in other viewers. For example, it is easy to have live preview of Markdown, Delimiter-separated Values, or Vega/Vega-Lite documents.
 
-3. What am I doing when I’m
-at my best?
+JupyterLab also offers a unified model for viewing and handling data formats. JupyterLab understands many file formats (images, CSV, JSON, Markdown, PDF, Vega, Vega-Lite, etc.) and can also display rich kernel output in these formats. See File and Output Formats for more information.
 
-> Learning new things and struggning through them because that is when I learn the most.
+To navigate the user interface, JupyterLab offers customizable keyboard shortcuts and the ability to use key maps from vim, emacs, and Sublime Text in the text editor.
 
-4. Why am I bothered by what
-bothers me?
+JupyterLab extensions can customize or enhance any part of JupyterLab, including new themes, file editors, and custom components.
 
-> Individuals that have an entitled attitude , especially when I'm asking for their assistance.
-
-5. Why do I do the work I do?
-
-> Being able to see the potential possitive impact I can have and knowing that I have myself and a network of people to support this vision
-
-6. Why do I live where I live?
-
-> Seattle is a hub of thechnical activity and I want to put my skills in the ring with some of the top developers in Washington.
-
-7. Why do I buy what I buy?
-
-> I enjoy the products based on my research.
-
-8. Why do I long for what I long for?
-
-> Because Ice Cream is amazing
-
-9. Why do I read and watch what I do?
-
-> It makes me feel good
-
-10. Why do I admire whom I admire?
-
-> Positive impacts on society 
-
-11. When am I happy?
-
-> If you spend your life miserable you are never going to grow, find the positive and run with it, forget the negative.
-
-12. Why do I have the relationships
-that I have?
-
-> These relationships allow me to grow but also challenge me to grow and be a better person than I was yesterday. You can always be a better person!
-
-
-## CONSIDER YOUR OPTIONS
-
-List your opportunities
-
-1. Remove the negative
-2. Celebrate the positive
-3. Surround myself with more possitive people 
-4. Be willing to walk away from those that are not bringing a positive into my life
-5. Create more self learning Games
-
-
-
-List your core values based
-on your answers to #1
-
-1. Be good to people regardless of how they act(don't let that get taken too far though, still have the fortitude to say "enough")
-2. Offer a helping hand or a hand up if you can, especially if it's time. Time is free.
-3. Find ways to bring others on your growth adventures, don't dismiss them  or stomp on their back to get to the next goal.
-4. If you can comfortably make someones stress levels lower, DO IT!(Streamline a system used in a workplace, give someone your extra sandwich. ANYTHING)
-5. Listen, don't have a need to speak, you can't connect with a person if you are only thinking about what your reply is, instead of LISTENING TO THEM
-
-
-## MAKE ROOM FOR WHAT YOU LOVE
-
-Maximize 
-1. Healthy professional relationships
-2. Friendships
-3. Self Confidence
-
-Minimize
-1. Self Doubt
-2. Toxic Environments
-3. Shortcuts
+JupyterLab is served from the same server and uses the same notebook document format as the classic Jupyter Notebook.
