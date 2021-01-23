@@ -3,7 +3,7 @@
 ## [How to Run Linear Regression in Python](http://bigdata-madesimple.com/how-to-run-linear-regression-in-python-scikit-learn/)
 
 
-[`Scikit-learn`](http://scikit-learn.org/stable/) is a powerful Python module for machine learning. It contains function for regression, classification, clustering, model selection and dimensionality reduction. The `sklearn.linear_model` [`module`](http://scikitlearn.org/stable/modules/linear_model.html) contains “methods intended for regression in which the target value is expected to be a linear combination of the input variables”.
+[`Scikit-learn`](http://scikit-learn.org/stable/) is a powerful Python module for machine learning. It contains function for regression, classification, clustering, model selection and dimensionality reduction. The [`sklearn.linear_model module`](http://scikitlearn.org/stable/modules/linear_model.html) contains “methods intended for regression in which the target value is expected to be a linear combination of the input variables”.
 
 > All examples are using the [Boston Housing data set](https://archive.ics.uci.edu/ml/datasets/Housing), the data set contains information about the housing values in suburbs of Boston.
 
