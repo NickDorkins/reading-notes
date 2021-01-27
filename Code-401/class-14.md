@@ -14,4 +14,79 @@
 
 ## pyplot
 
-pyplot is an object oriented plotting library, it is modeled closely to Matlab<sup>TM</sup>.
+`pyplot` is an object oriented plotting library, it is modeled closely to Matlab<sup>TM</sup>.
+
+> The majority of plotting commands in `pyplot` have Matlab<sup>TM</sup> analogs with similar arguments. Important commands are explained with interactive examples.
+
+## Simple plot
+
+The first step is to get the data for the sine and cosine functions:
+
+```
+import numpy as np
+
+X = np.linspace(-np.pi, np.pi, 256, endpoint=True)
+C, S = np.cos(X), np.sin(X)
+```
+- `X` is now a NumPy array with 256 values ranging from -π to +π (included). 
+- `C` is the cosine (256 values) and S is the sine (256 values).
+
+To run the example, you can download each of the examples and run it using:
+
+```
+$ python exercice_1.py
+```
+
+## Using defaults
+
+Documentation:
+
+- [plot tutorial](http://matplotlib.sourceforge.net/users/pyplot_tutorial.html)
+- [plot() command](http://matplotlib.sourceforge.net/api/pyplot_api.html#matplotlib.pyplot.plot)
+
+
+Matplotlib comes with a set of default settings that allow customizing all kinds of properties. You can control the defaults of almost every property in matplotlib: `figure` `size` and `dpi`, `line width`, `color` and `style`, `axes`, `axis` and `grid properties`, `text` and `font` properties and so on. 
+
+> Matplotlib defaults are good in most cases, but you may want to modify some properties for specific cases.
+
+## Instantiating defaults
+
+Documentation:
+
+- [Customizing matplotlib](http://matplotlib.sourceforge.net/users/customizing.html)
+
+
+![Default_Settings](https://github.com/rougier/matplotlib-tutorial/raw/master/figures/exercice_2.png)
+
+## Changing colors and line widths
+
+Documentation:
+
+- [Controlling line properties](http://matplotlib.sourceforge.net/users/pyplot_tutorial.html#controlling-line-properties)
+- [Line API](http://matplotlib.sourceforge.net/api/artist_api.html#matplotlib.lines.Line2D)
+
+**As a first step, we want to have the cosine in blue and the sine in red and a slightly thicker line for both of them. We'll also slightly alter the figure size to make it more horizontal.**
+
+![Thicker Lines w/ Color Change](https://github.com/rougier/matplotlib-tutorial/raw/master/figures/exercice_3.png)
+
+Sample Code Block:
+
+```
+plt.figure(figsize=(10,6), dpi=80)
+plt.plot(X, C, color="blue", linewidth=2.5, linestyle="-")
+plt.plot(X, S, color="red",  linewidth=2.5, linestyle="-")
+```
+
+## Setting limits
+
+Documentation:
+
+- [xlim() command](http://matplotlib.sourceforge.net/api/pyplot_api.html#matplotlib.pyplot.xlim)
+- [ylim() command](http://matplotlib.sourceforge.net/api/pyplot_api.html#matplotlib.pyplot.ylim)
+
+```
+plt.xlim(X.min()*1.1, X.max()*1.1)
+plt.ylim(C.min()*1.1, C.max()*1.1)
+```
+
+> The above code block will create some space to allow the user to view the data without the extra white space on the sides
