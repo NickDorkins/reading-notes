@@ -90,3 +90,63 @@ plt.ylim(C.min()*1.1, C.max()*1.1)
 ```
 
 > The above code block will create some space to allow the user to view the data without the extra white space on the sides
+
+## Setting ticks
+
+Documentation:
+
+- [xticks() command](http://matplotlib.sourceforge.net/api/pyplot_api.html#matplotlib.pyplot.xticks)
+- [yticks() command](http://matplotlib.sourceforge.net/api/pyplot_api.html#matplotlib.pyplot.yticks)
+- [Tick container](http://matplotlib.sourceforge.net/users/artists.html#axis-container)
+- [Tick locating and formatting](http://matplotlib.sourceforge.net/api/ticker_api.html)
+
+Sample Code Block to show more in depth tick values:
+```
+plt.xticks( [-np.pi, -np.pi/2, 0, np.pi/2, np.pi])
+plt.yticks([-1, 0, +1])
+```
+
+## Setting tick labels
+
+Documentation:
+
+- [Working with text](http://matplotlib.sourceforge.net/users/index_text.html)
+- [xticks() command](http://matplotlib.sourceforge.net/api/pyplot_api.html#matplotlib.pyplot.xticks)
+- [yticks() command](http://matplotlib.sourceforge.net/api/pyplot_api.html#matplotlib.pyplot.yticks)
+- [set_xticklabels()](http://matplotlib.sourceforge.net/api/axes_api.html?#matplotlib.axes.Axes.set_xticklabels)
+- [set_yticklabels()](http://matplotlib.sourceforge.net/api/axes_api.html?#matplotlib.axes.Axes.set_yticklabels)
+
+This allows the creator to make more in depth labels for the content that they are plotting on a graph.
+
+## Moving spines
+
+Documentation:
+
+- [Spines](http://matplotlib.sourceforge.net/api/spines_api.html#matplotlib.spines)
+- [Axis container](http://matplotlib.sourceforge.net/users/artists.html#axis-container)
+- [Transformations tutorial](http://matplotlib.sourceforge.net/users/transforms_tutorial.html)
+
+Spines are the lines connecting the axis tick marks and noting the boundaries of the data area. They can be placed at arbitrary positions and until now, they were on the border of the axis. We'll change that since we want to have them in the middle.
+
+![Moved Spines to Center of Data Plot](https://github.com/rougier/matplotlib-tutorial/raw/master/figures/exercice_7.png)
+
+Sample Code Block to move the spines to center:
+
+```
+ax = plt.gca()
+ax.spines['right'].set_color('none')
+ax.spines['top'].set_color('none')
+ax.xaxis.set_ticks_position('bottom')
+ax.spines['bottom'].set_position(('data',0))
+ax.yaxis.set_ticks_position('left')
+ax.spines['left'].set_position(('data',0))
+```
+
+## Adding a legend
+
+Documentation:
+
+- [Legend guide](http://matplotlib.sourceforge.net/users/legend_guide.html)
+- [legend() command](http://matplotlib.sourceforge.net/api/pyplot_api.html#matplotlib.pyplot.legend)
+- [Legend API](http://matplotlib.sourceforge.net/api/legend_api.html#matplotlib.legend.Legend)
+
