@@ -164,7 +164,6 @@ Many uses of Web scraping:
 
 
 
-<br><br><br><br><br><br><br><br><br><br><br><br>
 
 ## [Track Amazon Prices](https://www.youtube.com/watch?v=Bg9r_yLk7VY)
 
@@ -179,5 +178,6 @@ Many uses of Web scraping:
 
 
 
+<br><br><br><br><br><br><br><br><br><br><br><br>
 
 ## [Beautiful Soup](https://www.crummy.com/software/BeautifulSoup/)
