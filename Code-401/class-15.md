@@ -119,3 +119,19 @@ ALGORITHM postOrder(root)
 ## Breadth First
 
 **Breadth first traversal iterates through the tree by going through each level of the tree node-by-node.**
+
+You're going broad rather than deep.
+
+You can possibly use a list and pop the values off as you go through, rather than using a queue.
+
+
+
+
+
+## Binary Search Trees
+
+Everything on the left **HAS** to be amaller than the `root` node, and everything on the right **HAS** to be larger than the `root` node.
+
+## Good question for possible interview:
+
+### **Is this tree balanced?**
