@@ -36,7 +36,11 @@ Imagine that a very literate and savvy enemy intercepts one of Caesar's messages
 ```
 RZ VMZ WMDIBDIB VGG AJMXZN OJ EJDI RDOC XGZJKVOMV OJ YZAZVO OCZ ZIZHT LPZZI VO OCZ IDGZ YZGOV
 ```
+The above ball of chaos translated to:
 
+```
+WE ARE BRINGING ALL FORCES TO JOIN WITH CLEOPATRA TO DEFEAT THE ENEMY QUEEN AT THE NILE DELTA
+```
 That enemy does not know that Caesar always uses a shift of 3, so he must attempt to "crack" the cipher without knowing the shift.
 
 There are three main techniques he could use: 
