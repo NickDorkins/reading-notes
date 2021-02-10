@@ -33,17 +33,8 @@ Dictionary:
 
 - [Ordinary characters](https://www.datacamp.com/community/tutorials/python-regular-expression-tutorial#BasicChar) - match themselves exactly and do not have a special meaning in their regular expression syntax.
 
-- r - Raw string literal - changes how the string literal is interpreted meaning literals are stored as they appear.
+- `(r)` - Raw string literal - changes how the string literal is interpreted meaning literals are stored as they appear.
 
-- `( . )` - A period. Matches any single character except the newline character.
-
-- `( ^ )` - A caret. Matches the start of the string.
-
-- `($)` - Matches the end of string.
-
-- `[abc]` - Matches a or b or c.
-
-- `[a-zA-Z0-9]` - Matches any letter from (a to z) or (A to Z) or (0 to 9).
 
 ---
 
@@ -69,6 +60,8 @@ Example:
 `(\)` is just a backslash when prefixed with an `r` rather than being interpreted as an escape sequence.
 
 > Sometimes, the syntax involves backslash-escaped `(\)` characters, and to prevent these characters from being interpreted as escape sequences; you use the raw `(r)` prefix.
+
+---
 
 ## Wild Card Characters: Special Characters
 
@@ -121,7 +114,62 @@ The [`group function`](https://www.datacamp.com/community/tutorials/python-regul
 
 - `(\Z)` - Uppercase z. Matches only at the `end of the string`.
 
+> **TIP:** `^` and `\A` are effectively the same, and so are `$` and `\Z`. Except when dealing with `MULTILINE` mode. 
 
+- `(\b)` - Lowercase b. Matches only the beginning or end of the word.
+
+---
+
+## Repetitions
+
+- `(+)` - Checks if the preceding character appears one or more times starting from that position.
+
+- `(*)` - Checks if the preceding character appears zero or more times starting from that position.
+
+- `(?)` - Checks if the preceding character appears exactly zero or one time starting from that position.
+
+- `{x}` - Repeat exactly `x` number of times.
+
+- `{x,}` - Repeat at least `x` times or more.
+
+- `{x, y}` - Repeat at least `x` times but no more than y times.
+
+> `(+)` and `(*)` qualifiers are said to be greedy. See below for explaination of greedy.
+
+## Grouping in Regular Expressions
+
+**The group feature of regular expression allows you to pick up parts of the matching text. Parts of a regular expression pattern bounded by parenthesis `()` are called `groups`. The parenthesis does not change what the expression matches, but rather forms groups within the matched sequence.**
+
+Example:
+
+```
+<--- INPUT
+statement = 'Please contact us at: support@datacamp.com'
+match = re.search(r'([\w\.-]+)@([\w\.-]+)', statement) # <-- Group 
+if statement:
+  print("Email address:", match.group()) # The whole matched text
+  print("Username:", match.group(1)) # The username (group 1)
+  print("Host:", match.group(2)) # The host (group 2)
+```
+
+```
+OUTPUT ---> 
+Email address: support@datacamp.com
+Username: support
+Host: datacamp.com
+```
+
+Another way of doing the same is with the usage of `<` `>` brackets instead. This will let you create named groups. `Named groups` will make your code more readable. The syntax for creating named group is: `(?P<name>...)`. Replace the name part with the name you want to give to your group. 
+
+> The `(...)` represent the rest of the matching syntax. See this in action using the same example as before...
+
+> ***TIP:*** You can always access the named groups using numbers instead of the name. But as the number of groups increases, it gets harder to handle them using numbers alone. So, always make it a habit to use named groups instead.
+
+## Greedy vs. Non-Greedy Matching
+
+When a special character matches as much of the search sequence (string) as possible, it is said to be a `"Greedy Match"`. 
+
+> It is the normal behavior of a regular expression, but sometimes this behavior is not desired.
 
 
 
