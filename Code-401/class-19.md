@@ -136,6 +136,8 @@ The [`group function`](https://www.datacamp.com/community/tutorials/python-regul
 
 > `(+)` and `(*)` qualifiers are said to be greedy. See below for explaination of greedy.
 
+---
+
 ## Grouping in Regular Expressions
 
 **The group feature of regular expression allows you to pick up parts of the matching text. Parts of a regular expression pattern bounded by parenthesis `()` are called `groups`. The parenthesis does not change what the expression matches, but rather forms groups within the matched sequence.**
@@ -165,35 +167,89 @@ Another way of doing the same is with the usage of `<` `>` brackets instead. Thi
 
 > ***TIP:*** You can always access the named groups using numbers instead of the name. But as the number of groups increases, it gets harder to handle them using numbers alone. So, always make it a habit to use named groups instead.
 
+---
+
 ## Greedy vs. Non-Greedy Matching
 
 When a special character matches as much of the search sequence (string) as possible, it is said to be a `"Greedy Match"`. 
 
 > It is the normal behavior of a regular expression, but sometimes this behavior is not desired.
 
+Adding `?` after the qualifier makes it perform the match in a non-greedy or minimal fashion; That is, as few characters as possible will be matched.
 
+---
 
+## Function provided by `re`
 
+Regular expressions are handled as strings by Python. However, with `compile()`, you can computer a regular expression pattern into a [regular expression object](https://docs.python.org/3/library/re.html#re-objects).
 
+When you need to use an expression several times in a single program, using `compile()` to save the resulting regular expression object for reuse is more efficient than saving it as a string. This is because the compiled versions of the most recent patterns passed to `compile()` and the module-level matching functions are cached.
 
+- `search(pattern, string, flags=0)` - With this function, you scan through the given string/sequence, looking for the first location where the regular expression produces a match. It returns a corresponding match object if found, else returns None if no position in the string matches the pattern. Note that None is different from finding a zero-length match at some point in the string.
 
+- `match(pattern, string, flags=0)` - Returns a corresponding match object if zero or more characters at the beginning of string match the pattern. Else it returns None, if the string does not match the given pattern.
 
+- **`search()` vs. `match()`**
 
+    - The `match()` function checks for a match only at the beginning of the string (by default)
+    - the `search()` function checks for a match anywhere in the string.
 
+- `findall(pattern, string, flags=0)` - Finds all the possible matches in the entire sequence and returns them as a list of strings. Each returned string represents one match.
 
+- `finditer(string, [position, end_position])` - Similar to `findall()` - it finds all the possible matches in the entire sequence but returns regex match objects as an iterator.
 
+> **TIP:** `finditer()` might be an excellent choice when you want to have more information returned to you about your search. The returned regex match object holds not only the sequence that matched but also their positions in the original text.
 
+- sub(pattern, repl, string, count=0, flags=0)
+subn(pattern, repl, string, count=0)
 
+    - `sub()` is the substitute function. It returns the string obtained by replacing or substituting the leftmost non-overlapping occurrences of pattern in string by the replacement repl. If the pattern is not found, then the string is returned unchanged.
 
+    - The `subn()` is similar to `sub()`. However, it returns a `tuple` containing the new string value and the number of replacements that were performed in the statement.
 
+- `split(string, [maxsplit = 0])` - This splits the strings wherever the pattern matches and returns a list. If the optional argument maxsplit is nonzero, then the maximum 'maxsplit' number of splits are performed.
 
+- `start()` - Returns the starting index of the match.
 
+- `end()` - Returns the index where the match ends.
 
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+- `span()` - Return a tuple containing the (start, end) positions of the match.
+
+## Compilation Flags
+
+Flag Modifiers:
+
+- `IGNORECASE (I)` - Allows case-insensitive matches.
+
+- `DOTALL (S)` - Allows . to match any character, including newline.
+
+- `MULTILINE (M)` - Allows start of string `(^)` and end of string `($)` anchor to match newlines as well.
+
+- `VERBOSE (X)` - Allows you to write whitespace and comments within a regular expression to make it more readable.
+
+---
+
+## [Cleaning Data in Python](https://www.datacamp.com/courses/cleaning-data-in-python)
+
+---
+---
 
 ## [shutil](https://pymotw.com/3/shutil/)
+
+**The `shutil` module includes high-level file operations such as copying and archiving.**
+
+
+
+
+
+
+
+
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
 
 
 ## [Automation Ideas](https://www.youtube.com/watch?v=qbW6FRbaSl0&t=69s)
