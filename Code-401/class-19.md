@@ -238,6 +238,8 @@ Flag Modifiers:
 
 **The `shutil` module includes high-level file operations such as copying and archiving.**
 
+`copyfile()` copies the contents of the source to the destination and raises `IOError` if it does not have permission to write to the destination file.
+
 
 
 
