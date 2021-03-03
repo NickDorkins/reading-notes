@@ -3,10 +3,12 @@
 ## [Using Models](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Django/Models)
  - [Django Tutorial Part 2: Creating a skeleton website](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Django/skeleton_website)
 
+Django web applications access and manage data through Python objects referred to as `models`. 
 
+`Models` define the structure of stored data, including the field types and possibly also their maximum size, default values, selection list options, help text for documentation, label text for forms, etc.
 
-
-
+***`model` is independent of the underlying database***
+> you can choose one of several as part of your project settings
 
 
 
