@@ -34,15 +34,18 @@ class MyModelName(models.Model):
 
     # Methods
     def get_absolute_url(self):
-        """Returns the url to access a particular instance of MyModelName."""
+        """
+        Returns the url to access a particular instance of MyModelName."""
         return reverse('model-detail-view', args=[str(self.id)])
 
     def __str__(self):
         """String for representing the MyModelName object (in Admin site etc.)."""
         return self.my_field_name
-        ```
+```
 
+## Fields
 
+A model can have an arbitrary number of fields, of any type — each one represents a column of data that we want to store in one of our database tables. Each database record (row) will consist of one of each field value.
 
 
 
@@ -61,6 +64,8 @@ class MyModelName(models.Model):
 
 
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+
 
 ## [Django Admin](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Django/Admin_site)
 
