@@ -242,18 +242,6 @@ Flag Modifiers:
 
 
 
-
-
-
-
-
-
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-
-
-
 ## [Automation Ideas](https://www.youtube.com/watch?v=qbW6FRbaSl0&t=69s)
 
 
