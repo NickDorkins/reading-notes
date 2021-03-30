@@ -214,22 +214,11 @@ As the name suggests, the collection consists of twelve parts:
 - Logs
 - Admin processes
 
-
-
-
-
-
-
-
-
-
-
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+---
 
 ## [SSH Tutorial](https://www.hostinger.com/tutorials/ssh-tutorial-how-does-ssh-work)
 
+---
 
 ## **Additional Resources**
 
