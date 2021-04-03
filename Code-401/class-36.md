@@ -88,9 +88,10 @@ Pseudocode is a hybrid between the algorithm and actual code. For this you shoul
 
 Pseudocode Example:
 
-> def
+> def algorithm() <-- self & value
 
 
+> This step should look closer to code, however it is important to note that you are not to be writing code yet. 
 
 
 
