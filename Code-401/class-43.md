@@ -12,7 +12,7 @@ The general idea of this document is to instill in every tech professional that 
 
 ## What to do if you are asked to violate the publics trust???
 
-![No, way](https://media2.giphy.com/media/jRfK3GAUZrtrv3dO6m/source.gif)
+![No, way](https://thumbs.gfycat.com/AccurateDisloyalFish-size_restricted.gif)
 
 ## [Software Engineering Code of Ethics](https://ethics.acm.org/code-of-ethics/software-engineering-code/)
 
